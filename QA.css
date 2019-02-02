@@ -21,16 +21,15 @@ body {
 
 .all {
 	font-size: 16px;
-	background:linear-gradient(90deg, #434343, #6E6E6E);
+	background-color: #434343;
 	width: 25%;
 	color: #ffffff;
-
 }
 
 img {
 	border: 2px solid #D2D7D9;
-	border-radius: 45px;
-	width: 110px;
+	border-radius: 40px;
+	width: 100px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -57,7 +56,7 @@ img {
 }
 
 .sweet {
-	border-radius: 6px;
+	border-radius: 15px;
 	background-color: #FFA500;
 	font-size: 13px;
 	width: 65%;
@@ -66,7 +65,7 @@ img {
 }
 
 .drink {
-	border-radius: 6px;
+	border-radius: 15px;
 	background-color: #0174DF;
 	font-size: 13px;
 	width: 50%;
@@ -75,7 +74,7 @@ img {
 }
 
 .drank {
-	border-radius: 6px;
+	border-radius: 15px;
 	background-color: #008000;
 	font-size: 13px;
 	width: 90%;
@@ -93,23 +92,10 @@ a {
 	font-size: 18px;
 	color: #084B95;
 	margin-left: 15px;
-	margin-right: 25px;
 }
 
-.border {
-	border-bottom-style: solid;
-	border-bottom-color: #0080FF; 
-	border-bottom-width: 2px;
+.line1 {
+	height: 3px;
+	background-color: #0080FF;
+	margin-right: 15px;
 }
-
-.ul-softskill {
-    list-style: none;
-    margin-left: -40px;
-}
-
-.ul-softskill >li:before {
-    content:  "—";
-    position: relative;
-    left:     -5px;
-}
-
